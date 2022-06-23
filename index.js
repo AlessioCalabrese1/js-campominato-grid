@@ -12,8 +12,10 @@ grillGeneratorButton.addEventListener("click", function() {
         grillItemsNumber = 49;
     }
 
-
     let grillContainer = document.getElementById("grillContainer");
+    if (grillContainer.innerHTML != "") {
+        grillContainer.innerHTML = "";
+    }
 
     for (let index = 0; index < grillItemsNumber; index++) {
         let grillItem = document.createElement("div");
