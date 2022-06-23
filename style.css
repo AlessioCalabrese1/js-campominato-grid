@@ -1,0 +1,17 @@
+.w_1000px{
+    width: 800px;
+    margin: 30px auto;
+}
+
+.grill-items-10{
+    width: 10%;
+    height: 80px;
+    border: 2px solid black;
+}
+
+.gi-text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 75px;
+}
